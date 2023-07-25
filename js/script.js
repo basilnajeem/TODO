@@ -1,8 +1,9 @@
 const taskInput = document.getElementById("taskInput");
 const addButton = document.getElementById("addButton");
 
-addButton.addEventListener("click", addTask);
 
+
+addButton.addEventListener("click", addTask);
 
 function addTask() {
     const taskText = taskInput.value;
@@ -10,7 +11,11 @@ function addTask() {
         alert("please enter a task");
         return;
     }
-    validationMessage.style.display = "none";
+    
+    const taskList = document.getElementById("taskList");
+    const li = document.createElement("li");
+    li.innerHTML = `<span>${taskText}</span>`;
 
+    taskList.appendChild(li);
     taskInput.value = "";
 }
