@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html,
+body {
+    font-family: 'roboto', sans-serif !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+.section {
+    box-shadow: 0px 1px 19px -5px #00000026;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2E2D2D;
+}
+
+.section-1 {
+    display: flex;
+    background: #e1e1e1;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+.addbutton {
+    border: 0.5px solid #C0C2C3;
+    border-right: 0;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #3d90fd;
+    font-weight: 500;
+    font-size: 20px;
+    background: #ffffff;
+    min-width: 50px;
+}
+
+.newtask {
+    width: 100%;
+    outline: none;
+    border: 0.5px solid #C0C2C3;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-radius: 5px;
+    color: #2E2D2D;
+    caret-color: red;
+}
+
+.date {
+    border: 0.5px solid #C0C2C3;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+}
