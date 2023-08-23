@@ -31,23 +31,18 @@ body {
 
 .addbutton {
     border: 0.5px solid #C0C2C3;
-    border-right: 0;
     border-radius: 5px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
     color: #3d90fd;
     font-weight: 500;
     font-size: 20px;
     background: #ffffff;
-    min-width: 50px;
+    outline: 0;
 }
 
 .newtask {
     width: 100%;
     outline: none;
     border: 0.5px solid #C0C2C3;
-    border-top-left-radius: 0 !important;
-    border-bottom-left-radius: 0 !important;
     border-radius: 5px;
     color: #2E2D2D;
     caret-color: red;
@@ -60,3 +55,15 @@ body {
     outline: none;
     width: 200px;
 }
+
+ul.tasklist {
+    list-style: square;
+    display: none;
+}
+
+.list{
+    background: #fffdfd;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
